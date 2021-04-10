@@ -1,4 +1,4 @@
 # Derivative Calculator
 
 ### Terminal
-g++ -g [filename]
+g++ -g -Wall [filename]

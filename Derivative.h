@@ -1,22 +1,22 @@
 #ifndef _Derivative_H_
 #define _Derivative_H_
 
+#include <iostream>
+
+using namespace std;
+
 class Derivative
 {
 private:
   char equation[20];
+
 public:
-  Derivative(char* equation) {
-    short i = 0;
-    while (equation[i])
-    {
-      this->equation[i] = equation[i];
-    }
-    
-    
-  }
+  // Constructor
+  Derivative(char* equation);
+
+  // I forgot how to do this
   ~Derivative() {
-    delete [] equation;
+    // delete equation;
   }
 };
 
