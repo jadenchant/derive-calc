@@ -14,6 +14,8 @@ public:
   // Constructor
   Derivative(char* equation);
 
+  Derivative();
+
   // I forgot how to do this
   ~Derivative() {
     // delete equation;
