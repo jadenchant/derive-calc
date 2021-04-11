@@ -8,11 +8,12 @@ using namespace std;
 class Derivative
 {
 private:
-  char equation[20];
+  char *equation;
+  short len;
 
 public:
   // Constructor
-  Derivative(char* equation);
+  Derivative(const char *equation);
 
   Derivative();
 
